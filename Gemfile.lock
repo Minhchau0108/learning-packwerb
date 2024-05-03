@@ -103,6 +103,11 @@ GEM
     erubi (1.12.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    graphwerk (1.2.1)
+      activesupport
+      packwerk
+      ruby-graphviz
+      sorbet-runtime
     i18n (1.14.4)
       concurrent-ruby (~> 1.0)
     io-console (0.7.2)
@@ -211,6 +216,9 @@ GEM
       connection_pool
     reline (0.5.5)
       io-console (~> 0.5)
+    rexml (3.2.6)
+    ruby-graphviz (1.2.5)
+      rexml
     smart_properties (1.17.0)
     sorbet-runtime (0.5.11367)
     sprockets (4.2.1)
@@ -251,6 +259,7 @@ DEPENDENCIES
   bootsnap
   cssbundling-rails
   debug
+  graphwerk
   jbuilder
   jsbundling-rails
   packwerk (~> 3.2)
